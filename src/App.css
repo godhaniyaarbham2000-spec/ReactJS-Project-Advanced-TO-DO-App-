@@ -24,6 +24,11 @@ body {
 
 input {
   flex: 1;
+  min-width: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  box-sizing: border-box;
+
   padding: 10px;
   border: 1px solid #00ff88;
   border-radius: 5px;
@@ -67,4 +72,48 @@ button {
 .bulk-actions {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .input-row {
+    flex-direction: column;
+  }
+
+  input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .task {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .bulk-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .bulk-actions button {
+    width: 100%;
+  }
 }
