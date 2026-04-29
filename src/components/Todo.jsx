@@ -7,7 +7,9 @@ function Todo({ task, deleteTask, uppercaseTask, markDone }) {
       <div className="actions">
         <button onClick={() => deleteTask(task.id)}>delete</button>
         <button onClick={() => uppercaseTask(task.id)}>UpperCase One</button>
-        <button onClick={() => markDone(task.id)}>Mark Done</button>
+       <button onClick={() => markDone(task.id)}>
+  {task.done ? "Mark Undone" : "Mark Done"}
+</button>
       </div>
     </div>
   )
