@@ -34,7 +34,7 @@ ReactJS-Advanced-To-Do-App/
 │
 ├── src/
 │ ├── components/
-│ │ └── Todo.jsx    # Single Todo component
+│ │ └── Todo.jsx         # Single Todo component
 │ │
 │ ├── App.jsx            # Main application logic
 │ ├── App.css            # Styling
