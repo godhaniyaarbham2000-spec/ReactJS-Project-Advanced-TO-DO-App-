@@ -28,6 +28,7 @@ Built for practice, learning React state management, and portfolio showcase.
 * LocalStorage API
 
 ---
+## 📂 Project Structure
 ```
 ReactJS-Advanced-To-Do-App/
 │
@@ -128,4 +129,4 @@ MERN Stack Developer 🚀
 
 ---
 
-## 📂 Project Structure
+
