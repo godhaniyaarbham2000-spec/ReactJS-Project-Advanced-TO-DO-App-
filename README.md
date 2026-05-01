@@ -30,7 +30,7 @@ Built for practice, learning React state management, and portfolio showcase.
 ---
 ## 📂 Project Structure
 ```
-ReactJS-Advanced-To-Do-App/
+ReactJS-Project-Advanced-TO-DO-App/
 │
 ├── src/
 │ ├── components/
@@ -54,17 +54,17 @@ ReactJS-Advanced-To-Do-App/
 
 ### 1. Clone the repository
 ```
-git clone https://github.com/your-username/react-todo-app.git
+git clone https://github.com/godhaniyaarbham2000-spec/ReactJS-Project-Advanced-TO-DO-App.git
 ```
-2. Move to project folder
+### 2. Move to project folder
    ```
-cd react-todo-app
+cd ReactJS-Project-Advanced-TO-DO-App
 ```
-3. Install dependencies
+### 3. Install dependencies
 ```
 npm install
 ```
-4. Start development server
+### 4. Start development server
 ```
 npm run dev
 ```
