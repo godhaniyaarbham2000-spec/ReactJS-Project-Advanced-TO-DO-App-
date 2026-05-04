@@ -1,7 +1,7 @@
 # 📝 React Todo App - Task Manager Project
 
 A modern **React + Vite Todo Application** with full CRUD functionality, bulk actions, and **localStorage persistence**.  
-Built for practice, learning React state management, and portfolio showcase.
+Built for practice, learning React state management, and portfolio showcase. 
 
 ---
 
